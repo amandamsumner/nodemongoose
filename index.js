@@ -36,7 +36,6 @@ connect.then(() => {
         text: "What a magnificent view!",
         author: "Tinus Lorvaldes",
       });
-
       return campsite.save();
     })
     .then((campsite) => {
